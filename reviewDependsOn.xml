@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="ReviewClass.listener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="/Users/seldaince/Selenium/TestNgBatch13/src/test/java/ReviewClass/dependsOn.java">
+        <classes>
+            <class name="ReviewClass.dependsOn">
+            </class>
+        </classes>
+    </test>
+</suite>
